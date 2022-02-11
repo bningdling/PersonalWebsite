@@ -1,6 +1,6 @@
 # PersonalWebsite
 
-## [域名](sophiewang.org)
+## [域名](https://sophiewang.org)
 
 sophiewang.org
 
