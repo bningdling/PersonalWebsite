@@ -37,3 +37,5 @@ sophiewang.org
 ## [上传资源地址](https://github.com/bningdling/PersonalWebsite/tree/main/resource)
 
 resource目录
+
+## [配置文件](https://github.com/bningdling/PersonalWebsite/blob/main/config.json)
