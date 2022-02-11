@@ -1,0 +1,89 @@
+{
+    "title": "Name",
+    "icon": "/resource/icon.ico",
+    "footer": "Copyright © Name 2022. All Rights Reserved.",
+    "pages": [
+        {
+            "title": "Home",
+            "target": "/",
+            "info": {
+                "photo": "/resource/photo.png",
+                "title": "Name",
+                "description": "descriptiondescriptiondescriptiondescriptiondescriptiondescription",
+                "welcome": "Welcome!",
+                "content": [
+                    "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                    "DescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                    "Description",
+                    "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                    "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription"
+                ]
+            }
+        },
+        {
+            "title": "Research",
+            "target": "/research",
+            "info": {
+                "title": "Research",
+                "cards": [
+                    {
+                        "title": "card title1",
+                        "subTitle": "card subtitle",
+                        "description": "descriptiondescriptiondescriptiondescription",
+                        "buttons": [
+                            {
+                                "title": "Pdf",
+                                "target": "/resource/cv.pdf"
+                            },
+                            {
+                                "title": "Google",
+                                "target": "https://google.com"
+                            }
+                        ],
+                        "category": ["category1"]
+                    },
+                    {
+                        "title": "card title2",
+                        "subTitle": "card subtitle",
+                        "description": "descriptiondescriptiondescriptiondescription",
+                        "buttons": [
+                            {
+                                "title": "Link",
+                                "target": "/resource/cv.pdf"
+                            },
+                            {
+                                "title": "Link",
+                                "target": "https://google.com"
+                            }
+                        ],
+                        "category": ["category2"]
+                    }
+                ]
+            }
+        },
+        {
+            "title": "CV",
+            "target": "/resource/cv.pdf"
+        }
+    ],
+    "styles": {
+        "title": {},
+        "footer": {},
+        "home": {
+            "photo": {},
+            "title": {},
+            "description": {},
+            "welcome": {},
+            "content": {}
+        },
+        "research": {
+            "title": {},
+            "card": {
+                "title": {},
+                "subtitle": {},
+                "description": {},
+                "buttons": {}
+            }
+        }
+    }
+}
