@@ -42,20 +42,20 @@
                         "category": ["Work in Progress"]
                     },
                     {
-                        "title": "title1",
+                        "title": "A Tale of Two Identities: Analyzing the Myth of One Country Two Systems in the Age of Social Media",
                         "subTitle": "card subtitle",
-                        "description": "descriptiondescriptiondescriptiondescription",
+                        "description": "To explore the group attitudes of mainland Chinese and Hong Kongers toward the political controversy and to what extent China's One Country Two Systems has fallen apart in Hong Kong, this paper used Python programs to collect original data and conducted keyword frequency and sentiment analysis. Evidence shows that Hong Kong intellectuals play a crucial role in propagating nationalism-related ideologies as influencers on the internet, while the Chinese State media seeks to use the technology to channel public opinion, resulting in a widened gap between Hong Kong and China in the age of social media.",
                         "buttons": [
                             {
-                                "title": "Link",
-                                "target": "/resource/cv.pdf"
+                                "title": "PDF",
+                                "target": "/resource/A_Tale_of_Two_Identities.pdf"
                             },
                             {
                                 "title": "Link",
                                 "target": "https://google.com"
                             }
                         ],
-                        "category": ["publications"]
+                        "category": ["Publications"]
                     }
                 ]
             }
