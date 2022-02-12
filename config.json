@@ -73,7 +73,7 @@
             "title": {},
             "description": { "fontSize": "15px"},
             "welcome": {},
-            "content": {"fontSize": "20px"}
+            "content": {"fontSize": "20px", "textAlign": "left"}
         },
         "research": {
             "title": {},
