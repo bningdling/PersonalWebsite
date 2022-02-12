@@ -34,15 +34,12 @@
                                 "title": "Pdf",
                                 "target": "/resource/cv.pdf"
                             },
-                            {
-                                "title": "Google",
-                                "target": "https://google.com"
-                            }
+                          
                         ],
                         "category": ["Work in Progress"]
                     },
                     {
-                        "title": "card title2",
+                        "title": "title1",
                         "subTitle": "card subtitle",
                         "description": "descriptiondescriptiondescriptiondescription",
                         "buttons": [
@@ -55,7 +52,7 @@
                                 "target": "https://google.com"
                             }
                         ],
-                        "category": ["category2"]
+                        "category": ["publications"]
                     }
                 ]
             }
