@@ -34,7 +34,10 @@
                                 "title": "Pdf",
                                 "target": "/resource/cv.pdf"
                             },
-                          
+                            {
+                                "title": "Link",
+                                "target": "https://google.com"
+                            }
                         ],
                         "category": ["Work in Progress"]
                     },
