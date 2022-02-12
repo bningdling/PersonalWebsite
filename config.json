@@ -72,7 +72,7 @@
         "home": {
             "photo": {},
             "title": {},
-            "description": {},
+            "description": {Fontsize = 10},
             "welcome": {},
             "content": {}
         },
