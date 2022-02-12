@@ -26,9 +26,9 @@
                 "title": "Research",
                 "cards": [
                     {
-                        "title": "card title1",
-                        "subTitle": "card subtitle",
-                        "description": "descriptiondescriptiondescriptiondescription",
+                        "title": "Misarticulation and NLP",
+                        "subTitle": "Work in Progress",
+                        "description": "People experience times when their words fail to fully convey what's in their mind with a high frequency in daily life, despite their best intentions and an internal sense that what one wants to share is clear. We refer to this psychological experience as 'misarticulation' and study if NLP techniques can capture and predict the occurrence of misarticulation.",
                         "buttons": [
                             {
                                 "title": "Pdf",
@@ -39,7 +39,7 @@
                                 "target": "https://google.com"
                             }
                         ],
-                        "category": ["Work in Progress"]
+                        "category": ["Projects"]
                     },
                     {
                         "title": "A Tale of Two Identities: Analyzing the Myth of One Country Two Systems in the Age of Social Media",
