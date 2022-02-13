@@ -68,7 +68,7 @@
             "card": {
                 "title": {},
                 "subtitle": {},
-                "description": {"fontSize": "11px"},
+                "description": {"fontSize": "14px"},
                 "buttons": {}
             }
         }
