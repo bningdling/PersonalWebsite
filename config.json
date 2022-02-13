@@ -29,16 +29,7 @@
                         "title": "Misarticulation and NLP",
                         "subTitle": "Work in Progress",
                         "description": "People experience times when their words fail to fully convey what's in their mind with a high frequency in daily life, despite their best intentions and an internal sense that what one wants to share is clear. We refer to this psychological experience as 'misarticulation' and study if NLP techniques can capture and predict the occurrence of misarticulation.",
-                        "buttons": [
-                            {
-                                "title": "Pdf",
-                                "target": "/resource/cv.pdf"
-                            },
-                            {
-                                "title": "Link",
-                                "target": "https://google.com"
-                            }
-                        ],
+                    
                         "category": ["Projects"]
                     },
                     {
@@ -49,11 +40,8 @@
                             {
                                 "title": "Open Access",
                                 "target": "https://mjps.polisci.lsa.umich.edu/wp-content/uploads/2021/02/MJPS-F20.pdf#page=41"
-                            },
-                            {
-                                "title": "Link",
-                                "target": "https://mjps.polisci.lsa.umich.edu/wp-content/uploads/2021/02/MJPS-F20.pdf#page=41"
                             }
+                            
                         ],
                         "category": ["Publications"]
                     }
