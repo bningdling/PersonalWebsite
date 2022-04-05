@@ -38,13 +38,17 @@
                         "category": ["Projects"]
                     },
                     {
-                        "title": "Misarticulation and NLP",
-                        "subTitle": "Work in Progress",
-                        "description": "People experience times when their words fail to fully convey what's in their mind with a high frequency in daily life, despite their best intentions and an internal sense that what one wants to share is clear. We refer to this psychological experience as 'misarticulation' and study if NLP techniques can capture and predict the occurrence of misarticulation.",
+                        "title": "How COVID-19 Influences Job Interview Behaviors",
+                        "subTitle": "Fianl Project for MACS 30122: Computer Science with Social Science Applications 2 （Winter 2022)",
+                        "description": "This project uses computational methods to study changes in interview questions before and since the COVID-19 pandemic",
                         "buttons": [
                             {
-                                "title": "Research Proposal",
-                                "target": "https://docs.google.com/document/d/1sLfH8VdlA9uD7u9MYKSOTLDgAlzdibEIOhWTbn5ytXM/edit"
+                                "title": "Slides",
+                                "target": "https://github.com/cs-ssa-w22/final-project-winter2022/blob/main/30122_final_new.pptx"
+                            },
+                            {
+                                "title": "GitHub",
+                                "target": "https://github.com/cs-ssa-w22/final-project-winter2022"
                             }
                         ],
                         "category": ["Projects"]
