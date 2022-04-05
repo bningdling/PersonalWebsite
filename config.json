@@ -12,10 +12,10 @@
                 "description": "Master's student in Computational Social Science",
                 "welcome": "Welcome!💙",
                 "content": [
-                    "I am a master's student in the Computational Social Science program at the University of Chicago. My current research focuses on applying natural language processing to study a novel behavioral mechanism. I am also broadly interested in everyday decision-making, Artificial Intelligence for social good, organizational behaviors, and social media data.",
+                    "I am a student in the Computational Social Science program at the University of Chicago. My current research focuses on applying natural language processing to study a novel behavioral mechanism. I am also broadly interested in everyday decision-making, Artificial Intelligence for social good, organizational behaviors, and social media data.",
                     "Prior to starting my graduate study, I spent the second half of 2020 interning at the United Nations Economic and Social Commission for Asia and the Pacific (UNESCAP), where I  used computational methods to research on the digital technology responses of member states to the COVID-19 pandemic.",
                     "I graduated from the University of Colorado, Denver in 2021 with a B.A. in Economics and a B.A. in History."
-                  
+
                 ]
             }
         },
@@ -34,25 +34,21 @@
                                 "title": "Research Proposal",
                                 "target": "https://docs.google.com/document/d/1sLfH8VdlA9uD7u9MYKSOTLDgAlzdibEIOhWTbn5ytXM/edit"
                             }
-                            
                         ],
                         "category": ["Projects"]
                     },
                     {
-                        "title": "How COVID-19 Influences Job Interview Behaviors",
-                        "subTitle": "Fianl Project for MACS 30122: Computer Science with Social Science Applications 2",
-                        "description": "To explore the group attitudes of mainland Chinese and Hong Kongers toward the political controversy and to what extent China's One Country Two Systems has fallen apart in Hong Kong, this paper used Python programs to collect original data and conducted keyword frequency and sentiment analysis. Evidence shows that Hong Kong intellectuals play a crucial role in propagating nationalism-related ideologies as influencers on the internet, while the Chinese State media seeks to use the technology to channel public opinion, resulting in a widened gap between Hong Kong and China in the age of social media.",
+                        "title": "Misarticulation and NLP",
+                        "subTitle": "Work in Progress",
+                        "description": "People experience times when their words fail to fully convey what's in their mind with a high frequency in daily life, despite their best intentions and an internal sense that what one wants to share is clear. We refer to this psychological experience as 'misarticulation' and study if NLP techniques can capture and predict the occurrence of misarticulation.",
                         "buttons": [
-                             {
-                                "title": "Slides",
-                                "target": "https://github.com/cs-ssa-w22/final-project-winter2022/blob/main/30122_final_new.pptx"
-                            },
                             {
-                                "title": "GitHub",
-                                "target": "https://github.com/cs-ssa-w22/final-project-winter2022"
+                                "title": "Research Proposal",
+                                "target": "https://docs.google.com/document/d/1sLfH8VdlA9uD7u9MYKSOTLDgAlzdibEIOhWTbn5ytXM/edit"
                             }
-                            
-                         ],   
+                        ],
+                        "category": ["Projects"]
+                    },
                     {
                         "title": "A Tale of Two Identities: Analyzing the Myth of One Country Two Systems in the Age of Social Media",
                         "subTitle": "Michigan Journal of Political Science, Winter 2020 Issue, pp. 41–56.",
@@ -62,7 +58,7 @@
                                 "title": "Google Scholar",
                                 "target": "https://mjps.polisci.lsa.umich.edu/wp-content/uploads/2021/02/MJPS-F20.pdf#page=41"
                             }
-                            
+
                         ],
                         "category": ["Publications"]
                     }
