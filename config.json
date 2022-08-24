@@ -8,8 +8,8 @@
             "target": "/",
             "info": {
                 "photo": "/resource/websitepic.jpg",
-                "title": "Sophie Jiarui Wang",
-                "description": "Master's student in Computational Social Science",
+                "title": "",
+                "description": "",
                 "welcome": "Welcome! ❤️",
                 "content": [
                     "I am a master's student in the Computational Social Science program at the University of Chicago. My current research (advised by Berkeley J. Dietvorst) focuses on people's reactions to biased human decision-makers and biasd AI. I am also broadly interested in judgment and decision-making and Natural Language Processing.",
