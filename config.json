@@ -36,7 +36,7 @@
                                 "target": "/resource/misarticulation_pre.pdf"
                             }
                         ],
-                        "category": ["Projects"]
+                        "category": ["Selected Projects"]
                     },
                     {
                         "title": "How COVID-19 Influences Job Interview Behaviors",
@@ -60,7 +60,7 @@
                         "description": "To explore the group attitudes of mainland Chinese and Hong Kongers toward the political controversy and to what extent China's One Country Two Systems has fallen apart in Hong Kong, this paper used Python programs to collect original data and conducted keyword frequency and sentiment analysis. Evidence shows that Hong Kong intellectuals play a crucial role in propagating nationalism-related ideologies as influencers on the internet, while the Chinese State media seeks to use the technology to channel public opinion, resulting in a widened gap between Hong Kong and China in the age of social media.",
                         "buttons": [
                             {
-                                "title": "Google Scholar",
+                                "title": "Paper",
                                 "target": "https://mjps.polisci.lsa.umich.edu/wp-content/uploads/2021/02/MJPS-F20.pdf#page=41"
                             }
 
