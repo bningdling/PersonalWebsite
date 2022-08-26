@@ -41,8 +41,7 @@
                     {
                         "title": "How COVID-19 Influences Job Interview Behaviors",
                         "subTitle": "Fianl Project for MACS 30122: Computer Science with Social Science Applications 2 （Winter 2022)",
-                        "description": ["Have companies and organizations been asking different interview questions since the COVID-19 pandemic?",
-                        "To explore this issue, we selected four leading tech companies and strategically scraped 65k interview questions from Glassdoor, an American website where current and former employees anonymously review companies. We found through keyword analysis that leadership and cooperation have been valued more since the pandemic."],
+                        "description": ["Have companies and organizations been asking different interview questions since the COVID-19 pandemic? To explore this issue, we selected four leading tech companies and strategically scraped 65k interview questions from Glassdoor, an American website where current and former employees anonymously review companies. We found through keyword analysis that leadership and cooperation have been valued more since the pandemic.",
                         "buttons": [
                             {
                                 "title": "Slides",
