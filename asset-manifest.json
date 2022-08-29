@@ -17,5 +17,6 @@
   "/public/resource/SOPHIE CV_2022.05.pdf": "./resource/SOPHIE CV_2022.05.pdf",
   "/public/resource/test.png": "./resource/test.png",
   "/public/config.json": "./config.json",
-  "/public/resource/icon.ico": "./resource/icon.ico"
+  "/public/resource/icon.ico": "./resource/icon.ico",
+  "/public/CNAME": "./CNAME"
 }
