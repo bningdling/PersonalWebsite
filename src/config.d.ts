@@ -1,3 +1,13 @@
+export type CardType = {
+    title: string;
+    subTitle: string;
+    description: string;
+    picture?: string;
+    buttons: { title: string; target: string }[];
+    category: string[];
+    shortDescription?: string;
+};
+
 export type PageInfo = {
     photo?: string;
     title: string;
@@ -6,14 +16,29 @@ export type PageInfo = {
     content?: string[];
     cardRowCount?: number;
     width?: number;
-    cards?: {
-        title: string;
-        subTitle: string;
-        description: string;
-        picture?: string;
-        buttons: { title: string; target: string }[];
-        category: string[];
-    }[];
+    cards?: CardType[];
+};
+
+export type StyleConfig = {
+    title: React.CSSProperties;
+    footer: React.CSSProperties;
+    home: {
+        photo: React.CSSProperties;
+        title: React.CSSProperties;
+        description: React.CSSProperties;
+        welcome: React.CSSProperties;
+        content: React.CSSProperties;
+    };
+    research: {
+        title: React.CSSProperties;
+        card: {
+            title: React.CSSProperties;
+            subTitle: React.CSSProperties;
+            picture: React.CSSProperties;
+            description: React.CSSProperties;
+            buttons: React.CSSProperties;
+        };
+    };
 };
 
 export type Config = {
@@ -25,25 +50,5 @@ export type Config = {
         target: string;
         info?: PageInfo;
     }[];
-    styles: {
-        title: React.CSSProperties;
-        footer: React.CSSProperties;
-        home: {
-            photo: React.CSSProperties;
-            title: React.CSSProperties;
-            description: React.CSSProperties;
-            welcome: React.CSSProperties;
-            content: React.CSSProperties;
-        };
-        research: {
-            title: React.CSSProperties;
-            card: {
-                title: React.CSSProperties;
-                subTitle: React.CSSProperties;
-                picture: React.CSSProperties;
-                description: React.CSSProperties;
-                buttons: React.CSSProperties;
-            };
-        };
-    };
+    styles: StyleConfig;
 };

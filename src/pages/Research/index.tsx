@@ -1,9 +1,91 @@
 import { useConfigStyle, usePageInfo } from '@/layout/BasicLayout';
 import { Button, Tabs } from 'antd';
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import styles from './index.less';
+import type { CardType, StyleConfig, PageInfo } from '@/config.d';
 
 const { TabPane } = Tabs;
+
+interface CardProps extends CardType {
+    width: number;
+    pageInfo: PageInfo;
+    index: number;
+    configStyle: StyleConfig;
+}
+
+const Card = ({
+    title,
+    subTitle,
+    description,
+    buttons,
+    picture,
+    shortDescription,
+    width,
+    pageInfo,
+    index,
+    configStyle,
+}: CardProps) => {
+    const cardStyle = useMemo(() => {
+        const count = width < 600 ? 1 : pageInfo.cardRowCount || 1;
+        const res: React.CSSProperties = {
+            maxWidth: `calc(${100 / count}vw - ${80 / count}px - 9px)`,
+        };
+        if (pageInfo.width) {
+            res.width = `calc(${pageInfo.width / count}px - ${80 / count}px - 9px)`;
+        }
+        if (index % count === 0) {
+            res.marginLeft = '40px';
+        }
+        if ((index + 1) % count === 0) {
+            res.marginRight = '40px';
+        }
+        return res;
+    }, [index, pageInfo, width]);
+
+    const [showMore, setShowMore] = useState(!!shortDescription);
+    return (
+        <div className={styles.card} style={cardStyle}>
+            <div style={configStyle.research.card.title} className={styles.title}>
+                {title}
+            </div>
+            <div style={configStyle.research.card.subTitle} className={styles.subTitle}>
+                {subTitle}
+            </div>
+            {picture && (
+                <div
+                    style={{
+                        ...configStyle.research.card.picture,
+                        backgroundImage: `url(${picture})`,
+                    }}
+                    className={styles.picture}
+                />
+            )}
+            {showMore ? (
+                <p style={configStyle.research.card.description}>
+                    {shortDescription}
+                    <span className={styles.moreBtn} onClick={() => setShowMore(false)}>
+                        More
+                    </span>
+                </p>
+            ) : (
+                <p style={configStyle.research.card.description}>{description}</p>
+            )}
+            {buttons?.map((btn, btnIndex: number) => (
+                <Button
+                    key={btnIndex}
+                    ghost
+                    type="primary"
+                    onClick={() => {
+                        window.open(btn.target, '_blank');
+                    }}
+                    style={configStyle.research.card.buttons}
+                >
+                    {btn.title}
+                </Button>
+            ))}
+        </div>
+    );
+};
 
 export default () => {
     const pageInfo = usePageInfo();
@@ -32,26 +114,6 @@ export default () => {
         };
     }, []);
 
-    const getCardStyle = useCallback(
-        (index: number) => {
-            const count = width < 600 ? 1 : pageInfo.cardRowCount || 1;
-            const res: React.CSSProperties = {
-                maxWidth: `calc(${100 / count}vw - ${80 / count}px - 9px)`,
-            };
-            if (pageInfo.width) {
-                res.width = `calc(${pageInfo.width / count}px - ${80 / count}px - 9px)`;
-            }
-            if (index % count === 0) {
-                res.marginLeft = '40px';
-            }
-            if ((index + 1) % count === 0) {
-                res.marginRight = '40px';
-            }
-            return res;
-        },
-        [pageInfo, width],
-    );
-
     const wrapperStyle = useMemo(
         () => (pageInfo?.width ? { width: `${pageInfo.width}px` } : {}),
         [pageInfo],
@@ -65,56 +127,16 @@ export default () => {
                     <TabPane tab={c} key={c}>
                         {pageInfo.cards
                             ?.filter((card) => (c === 'All' ? true : card.category?.includes(c)))
-                            ?.map(
-                                (
-                                    { title, subTitle, description, buttons, picture },
-                                    index: number,
-                                ) => (
-                                    <div
-                                        className={styles.card}
-                                        key={index}
-                                        style={getCardStyle(index)}
-                                    >
-                                        <div
-                                            style={configStyle.research.card.title}
-                                            className={styles.title}
-                                        >
-                                            {title}
-                                        </div>
-                                        <div
-                                            style={configStyle.research.card.subTitle}
-                                            className={styles.subTitle}
-                                        >
-                                            {subTitle}
-                                        </div>
-                                        {picture && (
-                                            <div
-                                                style={{
-                                                    ...configStyle.research.card.picture,
-                                                    backgroundImage: `url(${picture})`,
-                                                }}
-                                                className={styles.picture}
-                                            />
-                                        )}
-                                        <p style={configStyle.research.card.description}>
-                                            {description}
-                                        </p>
-                                        {buttons?.map((btn, btnIndex: number) => (
-                                            <Button
-                                                key={btnIndex}
-                                                ghost
-                                                type="primary"
-                                                onClick={() => {
-                                                    window.open(btn.target, '_blank');
-                                                }}
-                                                style={configStyle.research.card.buttons}
-                                            >
-                                                {btn.title}
-                                            </Button>
-                                        ))}
-                                    </div>
-                                ),
-                            )}
+                            ?.map((item, index: number) => (
+                                <Card
+                                    {...item}
+                                    index={index}
+                                    key={index}
+                                    pageInfo={pageInfo}
+                                    configStyle={configStyle}
+                                    width={width}
+                                />
+                            ))}
                     </TabPane>
                 ))}
             </Tabs>
