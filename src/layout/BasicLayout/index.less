@@ -1,0 +1,87 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    header {
+        display: flex;
+        height: 105px;
+
+        line-height: 105px;
+        background: #fff;
+        box-shadow: 0 2px 8px #f0f1f2;
+        h1 {
+            height: 100%;
+            margin-bottom: 0;
+            padding-left: 40px;
+            font-size: 34px;
+            font-family: 'Avenir LT Std';
+            white-space: nowrap;
+        }
+        ul {
+            display: flex;
+            flex: 1;
+            justify-content: end;
+            min-width: 66px;
+            padding-right: 40px;
+            overflow: hidden;
+            font-size: 17px;
+            font-family: 'Avenir LT Std';
+            line-height: 105px;
+        }
+        .expend {
+            position: relative;
+            top: 6px;
+            font-size: 26px;
+            font-family: 'Avenir LT Std';
+        }
+        .menu1 {
+            display: flex;
+            justify-content: flex-end;
+            height: 75px;
+            margin-top: 30px;
+        }
+        .menu2 {
+            display: none;
+        }
+    }
+    .contentWrapper {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        overflow: auto;
+        .content {
+            flex: 1;
+        }
+        footer {
+            padding: 22px 0;
+            color: #fff;
+            text-align: center;
+            background-color: #000000;
+        }
+    }
+    @media (max-width: 900px) {
+        header {
+            display: flex;
+            .menu1 {
+                display: none;
+            }
+            .menu2 {
+                display: flex;
+                flex: 1;
+            }
+            a {
+                text-align: center;
+            }
+            ul {
+                flex: initial;
+                padding-right: 10px;
+            }
+            h1 {
+                padding-left: 30px;
+                font-size: 28px;
+            }
+        }
+    }
+}

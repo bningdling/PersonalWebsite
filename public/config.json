@@ -1,0 +1,100 @@
+{
+    "title": "Sophie Jiarui Wang",
+    "icon": "./resource/icon.ico",
+    "footer": "Copyright 2022 © Sophie Wang. All Rights Reserved.",
+    "pages": [
+        {
+            "title": "Home",
+            "target": "/",
+            "info": {
+                "photo": "./resource/websitepic.jpg",
+                "title": "",
+                "description": "I am a huge fan of the Lord of the Rings!",
+                "welcome": "Welcome! ❤️",
+                "content": [
+                    "I am a master's student (graduating in June 2023) in Computational Social Science at the University of Chicago. My current research project, advised by Berkeley J. Dietvorst, focuses on people's reactions to biased human decision-makers and biasd AI. I am also broadly interested in judgment and decision-making and Natural Language Processing.",
+                    "Prior to starting my graduate study, I spent the second half of 2020 interning at the United Nations Economic and Social Commission for Asia and the Pacific (UNESCAP), where I analyzed digital technologies in U.N. member states' public-health responses to the COVID-19 pandemic.",
+                    "I have been working as a research assistant at the Center of Applied Artificial Intelligence at the University of Chicago Booth School of Business since the fall of 2021."
+                ]
+            }
+        },
+        {
+            "title": "Research👩🏻‍💻",
+            "target": "/research",
+            "info": {
+                "title": "Research",
+                "cardRowCount": 2,
+                "width": 1000,
+                "cards": [
+                    {
+                        "title": "From Thoughts to Words: Exploring Misarticulation through Texts",
+                        "subTitle": "with Rafael M. Batista",
+                        "description": "People sometimes feel that what they have said is not quite what they meant to say. This psychological experience is referred to as “misarticulation”, meaning the subjective sense of not having fully expressed or communicated what one has in mind. While existing literature focuses more on the underlying process of information transmission in communications, misarticulation highlights the experience of the communicators themselves. This study uses Natural Language Processing techniques to explore whether misarticulation is predictable through texts.",
+                        "picture": "./resource/test.png",
+                        "buttons": [
+                            {
+                                "title": "Slides",
+                                "target": "./resource/misarticulation_pre.pdf"
+                            }
+                        ],
+                        "category": ["Selected Projects"]
+                    },
+                    {
+                        "title": "How COVID-19 Influences Job Interview Behaviors",
+                        "subTitle": "Fianl Project for MACS 30122: Computer Science with Social Science Applications 2 (Winter 2022)",
+                        "description": "Have companies and organizations been asking different interview questions since the COVID-19 pandemic?  We selected four leading tech companies and strategically scraped 65k interview questions from Glassdoor, an American website where current and former employees anonymously review companies. We found through keyword analysis that leadership and cooperation have been valued more since the pandemic.",
+                        "buttons": [
+                            {
+                                "title": "Slides",
+                                "target": "https://github.com/cs-ssa-w22/final-project-winter2022/blob/main/30122_final_new.pptx"
+                            },
+                            {
+                                "title": "GitHub",
+                                "target": "https://github.com/cs-ssa-w22/final-project-winter2022"
+                            }
+                        ],
+                        "category": ["Selected Projects"]
+                    },
+                    {
+                        "title": "A Tale of Two Identities: Analyzing the Myth of One Country Two Systems in the Age of Social Media",
+                        "subTitle": "Michigan Journal of Political Science, Winter 2020 Issue, pp. 41–56.",
+                        "description": "To explore the group attitudes of mainland Chinese and Hong Kongers toward the political controversy and to what extent China's One Country Two Systems has fallen apart in Hong Kong, this paper used Python programs to collect original data and conducted keyword frequency and sentiment analysis. Evidence shows that Hong Kong intellectuals play a crucial role in propagating nationalism-related ideologies as influencers on the internet, while the Chinese State media seeks to use the technology to channel public opinion, resulting in a widened gap between Hong Kong and China in the age of social media.",
+                        "buttons": [
+                            {
+                                "title": "Paper",
+                                "target": "https://mjps.polisci.lsa.umich.edu/wp-content/uploads/2021/02/MJPS-F20.pdf#page=41"
+                            }
+
+                        ],
+                        "category": ["Publications"]
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Curriculum Vitae",
+            "target": "./resource/SOPHIE CV_2022.05.pdf"
+        }
+    ],
+    "styles": {
+        "title": {},
+        "footer": {},
+        "home": {
+            "photo": {},
+            "title": {},
+            "description": {},
+            "welcome": {},
+            "content": {}
+        },
+        "research": {
+            "title": {},
+            "card": {
+                "title": {},
+                "subtitle": {},
+                "picture": {},
+                "description": {},
+                "buttons": {}
+            }
+        }
+    }
+}
