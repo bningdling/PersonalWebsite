@@ -28,10 +28,10 @@ const Card = ({
     const cardStyle = useMemo(() => {
         const count = width < 600 ? 1 : pageInfo.cardRowCount || 1;
         const res: React.CSSProperties = {
-            maxWidth: `calc(${100 / count}vw - ${80 / count}px - 9px)`,
+            maxWidth: `calc(${100 / count}vw - ${62 / count}px - 18px)`,
         };
         if (pageInfo.width) {
-            res.width = `calc(${pageInfo.width / count}px - ${80 / count}px - 9px)`;
+            res.width = `calc(${pageInfo.width / count}px - ${62 / count}px - 18px)`;
         }
         if (index % count === 0) {
             res.marginLeft = '40px';
