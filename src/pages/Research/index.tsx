@@ -42,7 +42,9 @@ const Card = ({
         return res;
     }, [index, pageInfo, width]);
 
-    const [showMore, setShowMore] = useState(!!shortDescription);
+    const showToggleBtn = useMemo(() => !!shortDescription, [shortDescription]);
+    const [isShort, setIsShort] = useState(!!shortDescription);
+
     return (
         <div className={styles.card} style={cardStyle}>
             <div style={configStyle.research.card.title} className={styles.title}>
@@ -60,16 +62,14 @@ const Card = ({
                     className={styles.picture}
                 />
             )}
-            {showMore ? (
-                <p style={configStyle.research.card.description}>
-                    {shortDescription}
-                    <span className={styles.moreBtn} onClick={() => setShowMore(false)}>
-                        More
+            <p style={configStyle.research.card.description}>
+                {isShort ? shortDescription : description}
+                {showToggleBtn && (
+                    <span className={styles.moreBtn} onClick={() => setIsShort(!isShort)}>
+                        {isShort ? 'More' : 'Less'}
                     </span>
-                </p>
-            ) : (
-                <p style={configStyle.research.card.description}>{description}</p>
-            )}
+                )}
+            </p>
             {buttons?.map((btn, btnIndex: number) => (
                 <Button
                     key={btnIndex}
