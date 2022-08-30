@@ -30,7 +30,7 @@
                         "title": "From Thoughts to Words: Exploring Misarticulation through Texts",
                         "subTitle": "with Rafael M. Batista",
                         "shortDescription": "People sometimes feel that what they have said is not quite what they meant to say. We refer to this psychological experience as “misarticulation”",
-                        "description": "People sometimes feel that what they have said is not quite what they meant to say. This psychological experience is referred to as “misarticulation”, meaning the subjective sense of not having fully expressed or communicated what one has in mind. While existing literature focuses more on the underlying process of information transmission in communications, misarticulation highlights the experience of the communicators themselves. This study uses Natural Language Processing techniques to explore whether misarticulation is predictable through texts.",
+                        "description": "People sometimes feel that what they have said is not quite what they meant to say. We refer to this psychological experience as “misarticulation”, meaning the subjective sense of not having fully expressed or communicated what one has in mind. While existing literature focuses more on the underlying process of information transmission in communications, misarticulation highlights the experience of the communicators themselves. This study uses Natural Language Processing techniques to explore whether misarticulation is predictable through texts.",
                         "picture": "./resource/test.png",
                         "buttons": [
                             {
@@ -45,6 +45,7 @@
                         "subTitle": "Fianl Project for MACS 30122: Computer Science with Social Science Applications 2 (Winter 2022)",
                         "shortDescription": "Have companies and organizations been asking different interview questions since the COVID-19 pandemic?", 
                         "description": "Have companies and organizations been asking different interview questions since the COVID-19 pandemic?  We selected four leading tech companies and strategically scraped 65k interview questions from Glassdoor, an American website where current and former employees anonymously review companies. We found through keyword analysis that leadership and cooperation have been valued more since the pandemic.",
+                        "picture": "./resource/glassdoor.png",
                         "buttons": [
                             {
                                 "title": "Slides",
