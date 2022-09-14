@@ -27,6 +27,21 @@
                 "width": 1000,
                 "cards": [
                     {
+                        "title": "Upworthy",
+                        "subTitle": "Aims to replicate the morphing technique of computer graphics in text analysis",
+                        "shortDescription": "This ongoing project uses thousands of A/B tests of headlines conducted by Upworthy from January 2013 to April 2015.",
+                        "description": "This ongoing project uses thousands of A/B tests of headlines conducted by Upworthy from January 2013 to April 2015. To date, I have performed exploratory data analyses and evaluated several preliminary models that focus on sentence-level predictions. Ultimately, our team at CAAI may want to explore whether headlines morphed by our algorithm can outperform alternative headlines produced by other humans.",
+                        "picture": "./resource/sampleECG.png",
+                        "buttons": [
+                            {
+                                "title": "Data",
+                                "target": "https://upworthy.natematias.com"
+                                
+                            }
+                        ],
+                        "category": ["Work in Progress"]
+                    },
+                    {
                         "title": "Nightingale Open Science - Sudden Cardiac Death",
                         "subTitle": "Summer 2022 at CAAI",
                         "shortDescription": "Every year, 300-400,000 Americans suffer from sudden cardiac death. Some of these would be preventable with an implanted cardioverter defibrillator (ICD), which restore normal heart rhythm, but the vast majority of deaths lack known risk factors pre-mortem.",
@@ -34,7 +49,7 @@
                         "picture": "./resource/sampleECG.png",
                         "buttons": [
                             {
-                                "title": "Confidential Information Omitted",
+                                "title": "Code Omitted Due to Confidentiality",
                                 "target": "https://sophiewang.org/#/research"
                                 
                             }
