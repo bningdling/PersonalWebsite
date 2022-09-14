@@ -13,7 +13,7 @@
                 "welcome": "Welcome! ❤️",
                 "content": [
                     "I am a master's student (graduating in June 2023) in Computational Social Science at the University of Chicago. My current research project, advised by Prof. Berkeley J. Dietvorst, focuses on people's reactions to biased human decision-makers and biasd AI. I am also broadly interested in judgment and decision-making and Natural Language Processing.",
-                    "Prior to starting my graduate study, I spent the second half of 2020 interning at the United Nations Economic and Social Commission for Asia and the Pacific (UNESCAP), where I analyzed digital technologies in U.N. member states' public-health responses to the COVID-19 pandemic.",
+                    "Prior to graduate school, I spent the second half of 2020 interning at the United Nations Economic and Social Commission for Asia and the Pacific (UNESCAP), where I analyzed digital technologies in U.N. member states' public-health responses to the COVID-19 pandemic.",
                     "I have been working as a research assistant at the Center of Applied Artificial Intelligence at the University of Chicago Booth School of Business since the fall of 2021."
                 ]
             }
@@ -26,6 +26,20 @@
                 "cardRowCount": 2,
                 "width": 1000,
                 "cards": [
+                    {
+                        "title": "Nightingale Open Science - Sudden Cardiac Death",
+                        "subTitle": "Summer 2022 at CAAI",
+                        "shortDescription": "Every year, 300-400,000 Americans suffer from sudden cardiac death. Some of these would be preventable with an implanted cardioverter defibrillator (ICD), which restore normal heart rhythm, but the vast majority of deaths lack known risk factors pre-mortem.",
+                        "description": "Every year, 300-400,000 Americans suffer from sudden cardiac death. Some of these would be preventable with an implanted cardioverter defibrillator (ICD), which restore normal heart rhythm, but the vast majority of deaths lack known risk factors pre-mortem. We draw on a dataset of over 400,000 ECGs from a regional health system in Sweden, linked to death certificates, and train a residual neural network to predict sudden cardiac death. In an independent validation set of patients from the same region, we show that our model capably automates the prediction of sudden cardiac death, performing comparably to best-fit models on extensive patient medical history.",
+                        "picture": "./resource/test.png",
+                        "buttons": [
+                            {
+                                "title": "Confidential Information Omitted",
+                                
+                            }
+                        ],
+                        "category": ["Selected Projects"]
+                    },
                     {
                         "title": "From Thoughts to Words: Exploring Misarticulation through Texts",
                         "subTitle": "with Rafael M. Batista",
