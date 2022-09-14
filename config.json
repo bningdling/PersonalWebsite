@@ -34,7 +34,7 @@
                         "picture": "./resource/test.png",
                         "buttons": [
                             {
-                                "title": "Confidential Information Omitted",
+                                "title": "Confidential Information Omitted"
                                 
                             }
                         ],
