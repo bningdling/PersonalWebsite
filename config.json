@@ -26,12 +26,32 @@
                 "cardRowCount": 2,
                 "width": 1000,
                 "cards": [
+                     {
+                        "title": "Biased AI and Biased Humans",
+                        "subTitle": "MA Thesis Project",
+                        "shortDescription": "The wide range of applications of AI in critical domains, including and not limited to criminal justice and medical fields, is viewed as a potential solution to biased human decision-making.",
+                        "description": "The wide range of applications of AI in critical domains, including and not limited to criminal justice and medical fields, is viewed as a potential solution to biased human decision-making. However, concerns regarding biases contained in algorithms are growing amongst researchers and the general public. We found that people prefer algorithmic aids less after they know the AI is biased, but algorithmic aids may be more permissible if the human decision-maker is framed to be biased.",
+                        "picture": "./resource/aibias.jpeg",
+                        "buttons": [
+                            {
+                                "title": "Pre-registration",
+                                "target": "https://aspredicted.org/9zd52.pdf"
+                                
+                            },
+                            {
+                                "title": "More on Algorithmic Bias",
+                                "target": "./resource/AI-explain.pdf"
+                                
+                            }
+                        ],
+                        "category": ["Work in Progress"]
+                    },
                     {
                         "title": "Upworthy",
-                        "subTitle": "Aims to replicate the morphing technique of computer graphics in text analysis",
+                        "subTitle": "Aiming to replicate the morphing technique of computer graphics in text analysis",
                         "shortDescription": "This ongoing project uses thousands of A/B tests of headlines conducted by Upworthy from January 2013 to April 2015.",
                         "description": "This ongoing project uses thousands of A/B tests of headlines conducted by Upworthy from January 2013 to April 2015. To date, I have performed exploratory data analyses and evaluated several preliminary models that focus on sentence-level predictions. Ultimately, our team at CAAI may want to explore whether headlines morphed by our algorithm can outperform alternative headlines produced by other humans.",
-                        "picture": "./resource/sampleECG.png",
+                        "picture": "./resource/upworthy.png",
                         "buttons": [
                             {
                                 "title": "Data",
@@ -44,7 +64,7 @@
                     {
                         "title": "Nightingale Open Science - Sudden Cardiac Death",
                         "subTitle": "Summer 2022 at CAAI",
-                        "shortDescription": "Every year, 300-400,000 Americans suffer from sudden cardiac death. Some of these would be preventable with an implanted cardioverter defibrillator (ICD), which restore normal heart rhythm, but the vast majority of deaths lack known risk factors pre-mortem.",
+                        "shortDescription": "Every year, 300-400,000 Americans suffer from sudden cardiac death. Some of these would be preventable with an implanted cardioverter defibrillator (ICD)",
                         "description": "Every year, 300-400,000 Americans suffer from sudden cardiac death. Some of these would be preventable with an implanted cardioverter defibrillator (ICD), which restore normal heart rhythm, but the vast majority of deaths lack known risk factors pre-mortem. We draw on a dataset of over 400,000 ECGs from a regional health system in Sweden, linked to death certificates, and train a residual neural network to predict sudden cardiac death. In an independent validation set of patients from the same region, we show that our model capably automates the prediction of sudden cardiac death, performing comparably to best-fit models on extensive patient medical history.",
                         "picture": "./resource/sampleECG.png",
                         "buttons": [
