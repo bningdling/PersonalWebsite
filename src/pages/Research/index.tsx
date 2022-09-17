@@ -1,5 +1,5 @@
 import { useConfigStyle, usePageInfo } from '@/layout/BasicLayout';
-import { Button, Tabs } from 'antd';
+import { Button, Tabs, Tag } from 'antd';
 import { useEffect, useMemo, useState } from 'react';
 import styles from './index.less';
 import type { CardType, StyleConfig, PageInfo } from '@/config.d';
@@ -24,6 +24,7 @@ const Card = ({
     pageInfo,
     index,
     configStyle,
+    tags
 }: CardProps) => {
     const cardStyle = useMemo(() => {
         const count = width < 600 ? 1 : pageInfo.cardRowCount || 1;
@@ -50,6 +51,19 @@ const Card = ({
             <div style={configStyle.research.card.title} className={styles.title}>
                 {title}
             </div>
+            {
+                !!tags?.length && 
+                <div style={configStyle.research.card.tags} className={styles.tags}>
+                    {tags.map((tag, index) => (
+                        <Tag
+                            key={index}
+                            color={tag.color || void 0}
+                        >
+                            {tag.value}
+                        </Tag>
+                    ))}
+                </div>
+            }
             <div style={configStyle.research.card.subTitle} className={styles.subTitle}>
                 {subTitle}
             </div>
@@ -70,7 +84,7 @@ const Card = ({
                     </span>
                 )}
             </p>
-            {buttons?.map((btn, btnIndex: number) => (
+            {!!buttons?.length && buttons?.map((btn, btnIndex: number) => (
                 <Button
                     key={btnIndex}
                     ghost
