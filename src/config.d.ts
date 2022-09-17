@@ -6,6 +6,7 @@ export type CardType = {
     buttons: { title: string; target: string }[];
     category: string[];
     shortDescription?: string;
+    tags?: { value: string; color: string }[];
 };
 
 export type PageInfo = {
@@ -37,6 +38,7 @@ export type StyleConfig = {
             picture: React.CSSProperties;
             description: React.CSSProperties;
             buttons: React.CSSProperties;
+            tags: React.CSSProperties;
         };
     };
 };

@@ -28,6 +28,7 @@ export const DEFAULT_CONFIG = {
                 description: {},
                 picture: {},
                 buttons: {},
+                tags: {}
             },
         },
     },
