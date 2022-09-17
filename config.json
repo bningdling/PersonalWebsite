@@ -148,7 +148,8 @@
                 "subtitle": {},
                 "picture": {},
                 "description": {},
-                "buttons": {}
+                "buttons": {},
+                "tags": {}
             }
         }
     }
