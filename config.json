@@ -1,7 +1,7 @@
 {
     "title": "Sophie Jiarui Wang",
     "icon": "./resource/icon.ico",
-    "footer": "Copyright 2022 © Sophie Wang. All Rights Reserved.",
+    "footer": "Copyright 2023 © Sophie Wang. All Rights Reserved.",
     "pages": [
         {
             "title": "Home",
@@ -128,7 +128,7 @@
         },
         {
             "title": "Curriculum Vitae",
-            "target": "./resource/SOPHIE CV_2022.09.pdf"
+            "target": "./resource/SOPHIE CV_2023.04.pdf"
         }
     ],
     "styles": {
